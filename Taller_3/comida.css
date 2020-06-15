@@ -1,0 +1,13 @@
+body{
+    font-size: 18px;
+    font-family:  Tahoma,sans-serif;
+    color: rebeccapurple;
+    background-color: mediumpurple;
+    line-height : 1.5em;
+}
+tr{
+    border-bottom: 1px solid rebeccapurple;
+}
+td, th{
+    border-right: 1px solid rebeccapurple;
+}
