@@ -1,0 +1,113 @@
+#boton_google{
+    display: none;
+}
+/* Menu de navegacion*/
+#menu{
+    margin-top: 8px;;
+    margin-bottom: 60px;
+}
+.nav-item{
+    background-color: white;
+    padding: 0;
+}
+.nav-link{
+    color: Black;
+    font-family: 'Lobster Two', cursive;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    
+}
+.nav-link:hover{
+    color: white;
+}
+.nav-item:hover{
+    background-color: gray;
+}
+/* /Menu de navegacion*/
+/* Títulos y parrafos*/
+p{
+    color: gray;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+h1,h2{
+    font-family: 'Abril Fatface', cursive, sans-serif;
+    color: white;
+}
+h3{
+    font-family: 'Abril Fatface', cursive, sans-serif;
+    color: black;
+}
+/* Títulos */
+
+/* body cuerpo*/
+body{
+    background-color: black;
+}
+/* body cuerpo*/
+
+
+/* media query de #imagen_1*/
+  @media screen and (max-width: 768px){
+  #imagen_1{
+    height: 400px;
+    width: 100%;
+   }
+  }
+  /* /media query de #imagen_1*/
+
+  /* media query de Títulos */
+    @media (max-width:767px){
+    h1,h2,h3{
+       font-size: 20px;
+      }
+    }
+  /* /media query de Títulos*/
+/* media query de parrafos*/
+@media (max-width:767px){
+    p{
+       font-size: 18px;
+      }
+    a{
+        font-size: 18px;
+    }
+    #imagen_1{
+        display: block; margin-left: auto; margin-right: auto;
+        height: 280px;
+    }
+    }
+    @media (min-width:768px){
+        p{
+           font-size: 30px;
+          }
+        a{
+            font-size: 25px;
+        }
+        
+        }
+    @media (min-width:1024px){
+        a{
+            font-size: 30px;
+        }
+        #imagen_1{
+            display: block; margin-left: auto; margin-right: auto;
+            height: 600px;
+        }
+    }
+/* /media query de parrafos*/
+
+.card {
+    margin-left: auto; margin-right: auto;
+    width: 60%;
+}
+.card p{
+    text-align: left;
+}
+.card h2{
+    color: black;
+}
+
+#navegacion_2 li a{
+  font-size: 20px;
+}

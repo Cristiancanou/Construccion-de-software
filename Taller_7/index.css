@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+}
+li:hover{
+  cursor: pointer;
+}
+/* Títulos y parrafos*/
+p{
+    color: gray;
+    
+    font-family: 'Quicksand', sans-serif;
+}
+h1,h2{
+    font-family: 'Abril Fatface', cursive, sans-serif;
+    color: white;
+}
+h3{
+    font-family: 'Abril Fatface', cursive, sans-serif;
+    color: black;
+}
+/* Títulos */
+/* media query de #imagen_1*/
+  @media screen and (max-width: 768px){
+  #imagen_1{
+    height: 400px;
+    width: 100%;
+   }
+  }
+  /* /media query de #imagen_1*/
+
+  /* media query de Títulos */
+    @media (max-width:767px){
+    h1,h2,h3{
+       font-size: 20px;
+      }
+    }
+  /* /media query de Títulos*/
+/* media query de parrafos y enlaces*/
+@media (max-width:767px){
+    p{
+       font-size: 18px;
+      }
+    a{
+        font-size: 18px;
+    }
+    }
+    @media (min-width:768px){
+        p{
+           font-size: 30px;
+          }
+        a{
+            font-size: 25px;
+        }
+        }
+    @media (min-width:1024px){
+        a{
+            font-size: 30px;
+        }
+    }
+/* /media query de parrafos y enlaces*/
+
+/* Menu de navegacion*/
+#menu{
+    margin-top: 8px;;
+    margin-bottom: 60px;
+}
+.nav-item{
+    background-color: white;
+    padding: 0;
+}
+.nav-link{
+    color: Black;
+    font-family: 'Lobster Two', cursive;
+    border-right: 1px solid black;
+    text-align: center;
+    
+}
+.nav-link:hover{
+    color: white;
+}
+.nav-item:hover{
+    background-color: gray;
+}
+/* /Menu de navegacion*/
+#imagen_1{
+    width: 100%;
+    margin-bottom: 90px;
+}
+#iniciar_sesion{
+    margin-top: 60px;
+}
+#modal_google{
+    margin-top: 100px;
+    text-align: center;
+    display:none;
+}
+#modal_google p{
+    margin-bottom: 10%;
+}
+#modal_google h2{
+    margin-bottom: 10%;
+}
+#entrar_2{
+    margin-top: 10%;
+    display: none;
+}
+

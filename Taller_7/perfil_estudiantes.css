@@ -1,0 +1,57 @@
+
+  /* media query de Títulos */
+  @media (max-width:767px){
+    h1,h2,h3{
+       font-size: 20px;
+      }
+    }
+  /* /media query de Títulos*/
+/* media query de parrafos*/
+@media (max-width:767px){
+    p{
+       font-size: 18px;
+      }
+    a{
+        font-size: 18px;
+    }
+    }
+    @media (min-width:768px){
+        p{
+           font-size: 30px;
+          }
+        a{
+            font-size: 25px;
+        }
+        }
+    @media (min-width:1024px){
+        a{
+            font-size: 30px;
+        }
+    }
+/* /media query de parrafos*/
+p{
+    color: gray;
+    
+    font-family: 'Quicksand', sans-serif;
+}
+h1,h2,h3{
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Abril Fatface', cursive, sans-serif;
+    color: white;
+}body{
+    background-color: black;
+}
+#boton_google{
+    display: none;
+}
+.abcRioButton{
+    
+}
+
+img{
+    margin-top: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÉTER</title>
+     <!-- boostrap grid-->
+     <link rel="stylesheet" href="bootstrap-grid.min.css">
+     <!-- /boostrap grid-->
+     <!-- boostrap css-->
+     <link rel="stylesheet" href="bootstrap.min.css">
+     <!-- /boostrap css-->
+     <!-- enlace de mi css-->
+    <link rel="stylesheet" href="encargado.css">
+     <!-- /enlace de mi css-->
+     <!-- script de google-->
+     <script src="https://apis.google.com/js/platform.js" async defer></script>
+     <!-- /script de google-->
+     <!-- meta de google-->
+     <meta name="google-signin-client_id" content="123151274075-bqik8es8riluugoju458le63nbdk7rck.apps.googleusercontent.com">
+     <!-- /meta de google-->
+     <!-- fuentes de letra de google-->
+     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+     <!-- /fuentes de letra de google-->
+     <!-- Firebase-->
+     <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-firestore.js"></script>
+       <!-- /Firebase-->
+</head>
+<body >
+    <div id="boton_google"class=" g-signin2" data-onsuccess="onSignIn" data-width="300" data-height=61 data-longtitle="true" ></div>
+    <!-- Contenido-->
+    <div class="container">
+        <!--Menu de navegacion-->
+        <ul id="menu"class="nav row">
+            <li class="nav-item col-12">
+                <a class="nav-link" href="#">Crear</a>
+            </li>
+        </ul>
+        <!--/Menu de navegacion-->
+        <input id="url"class="form-control form-control-lg" type="text" placeholder="URL de la imagen">
+        <br>
+        <input id="titulo"class="form-control form-control-lg" type="text" placeholder="Título">
+        <br>
+        <div class="form-group">
+            <textarea id="descripcion" class="form-control" id="" placeholder="Descripción y Requisitos" rows="5"></textarea>
+        </div>
+       <button onclick="agregar()" class="btn btn-info">Crear</button>
+    </div>
+    <!-- /Contenido-->
+    <!-- javascript-->
+    <script src="encargado.js"></script>
+</body>
+</html>
